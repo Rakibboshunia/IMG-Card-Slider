@@ -9,11 +9,11 @@ html,body{
     display: grid;
     height: 100%;
     place-items: center;
-    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+    background: linear-gradient(375deg, #8119bd, #2ede98);
 }
 .wrapper{
     height: 400px;
-    width: 320px;
+    width: 520px;
     position: relative;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -23,10 +23,10 @@ html,body{
     height: 100%;
     width: 100%;
     position: absolute;
-    background: #fff;
-    border-radius: 10px;
+    background: #ffffff;
+    border-radius: 5px;
     transform: rotateY(0deg);
-    padding: 5px;
+    padding: 10px;
     transform-style: preserve-3d;
     transition: 0.7s cubic-bezier(0.4,0.2,0.2,1);
 }
@@ -59,7 +59,7 @@ html,body{
     width: 150px;
     border-radius: 50%;
     padding: 5px;
-    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+    background: linear-gradient(375deg, #5bd2d8, #50baeb);
 }
 
 .wrapper .back-face .info{
